@@ -1,0 +1,8 @@
+{
+  "available": true,
+  "evaluation_scope": "Synthetic demo only; these metrics are not real-world performance claims.",
+  "precision_at_k": 20,
+  "mean_precision_at_k_by_store_date": 0.25,
+  "total_true_positives_in_top_k": 1,
+  "evaluated_store_date_groups": 4
+}

@@ -1,0 +1,37 @@
+{
+  "sales": {
+    "file": "data/organizer_sales.csv",
+    "date": "business_date",
+    "store_id": "shop_code",
+    "sku_id": "item_code",
+    "units_sold": "quantity_sold"
+  },
+  "inventory": {
+    "file": "data/organizer_inventory.csv",
+    "date": "snapshot_date",
+    "store_id": "shop_code",
+    "sku_id": "item_code",
+    "on_hand": "available_quantity"
+  },
+  "promotions": {
+    "file": "data/organizer_promotions.csv",
+    "date": "business_date",
+    "store_id": "shop_code",
+    "sku_id": "item_code",
+    "promo_active": "promotion_flag"
+  },
+  "stores": {
+    "file": "data/organizer_stores.csv",
+    "store_id": "shop_code",
+    "store_format": "format",
+    "store_size": "floor_area",
+    "city_tier": "tier"
+  },
+  "products": {
+    "file": "data/organizer_products.csv",
+    "sku_id": "item_code",
+    "sku_name": "product_name",
+    "category": "department",
+    "selling_price": "price"
+  }
+}

@@ -1,0 +1,5 @@
+date,store_id,sku_id,is_phantom
+2026-02-25,S001,SKU003,True
+2026-03-08,S001,SKU015,True
+2026-03-04,S002,SKU008,True
+2026-02-18,S003,SKU011,True
