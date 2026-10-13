@@ -1,7 +1,0 @@
-{
-  "estimate_type": "illustrative scenario estimate",
-  "assumption": "Expected lost units are a simple proxy (expected daily demand \u00d7 zero-sales streak); it is not measured lost sales or recovered revenue.",
-  "alert_count": 103,
-  "total_expected_lost_units": 1705.33,
-  "note": "Rupee recovery estimates require selling_price or margin data. No currency estimate was calculated."
-}
