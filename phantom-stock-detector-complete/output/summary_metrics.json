@@ -1,0 +1,34 @@
+{
+  "input_row_counts": {
+    "sales": 8100,
+    "inventory": 8100
+  },
+  "merged_row_count": 8100,
+  "total_candidate_count": 251,
+  "total_top_20_alert_count": 251,
+  "number_of_stores": 3,
+  "date_range": {
+    "start": "2026-01-01",
+    "end": "2026-03-31"
+  },
+  "threshold_settings": {
+    "zero_streak_min": 3,
+    "min_expected_daily_sales": 0.5,
+    "slow_mover_threshold": 0.2,
+    "rolling_window_days": 28,
+    "rolling_min_periods": 7,
+    "inventory_unchanged_days": 3,
+    "max_alerts_per_store_day": 20,
+    "score_weights": {
+      "positive_stock": 15.0,
+      "zero_streak": 25.0,
+      "historical_demand": 20.0,
+      "inventory_unchanged": 10.0,
+      "peer_demand": 15.0,
+      "promotion": 5.0,
+      "slow_mover_penalty": 15.0
+    }
+  },
+  "runtime_seconds": 0.398,
+  "note": "Demo data results are not real-world performance claims."
+}
